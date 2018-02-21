@@ -1,0 +1,31 @@
+<div class="login-container">
+  <div class="login">
+    <div class="login-box">
+      <form [formGroup]="loginForm" class="form-vertical col-md-6 col-md-offset-8 " (ngSubmit)="login(loginForm)" autocomplete="off">
+
+        <div>
+          <img src=".\assets\images\Capture.png" alt="admin" class="img-resp">
+        </div>
+        <div class="form-group">
+          <label class="label-color">Username:</label>
+          <input class="form-control" type="text" formControlName="username" placeholder="username">
+        </div>
+        <div class="form-group">
+          <label class="label-color">Password:</label>
+          <input id="pass" class="form-control" type="password" formControlName="password" placeholder="password">
+        </div>
+        <div>
+          <button type="submit" class="btn btn-success">Login </button>
+         &nbsp;
+         &nbsp; 
+         &nbsp;
+         &nbsp;
+          <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+
+</div>

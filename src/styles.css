@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+*{
+    font-size: 14px;
+}
+
+body{
+    background: linear-gradient(-90deg,rgba(6, 104, 196, 0.747),rgba(24, 150, 133, 0.863),rgb(5, 156, 98));
+    background-size:auto;
+
+}
+.label-color{
+    color: white;
+}
+.well{
+
+    background-color:rgba(204, 204, 204, 0.705);
+    
+    }
